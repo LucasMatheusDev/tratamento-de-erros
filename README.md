@@ -11,10 +11,11 @@ Seria incrível se ele tivesse um pouco de consideração por nós e falasse: �
 
 O flutter tem varias funções especificas para tratamento de erros, e as que iremos usar são “ FlutterError.OnError” e “ErrorWidget.Builder”  
 
-###FlutterError.OnError : 
+### FlutterError.OnError : 
 Responsável por tratar os erros conhecidos pelo flutter, como por exemplo um erro de assert() que não permite dar cor no container quando o BoxDecoration é diferente de nulo.  
 
-###ErrorWidget.Builder : Responsável por erros relacionados a construção(build) e dizer como será a tela de erro, e o que fazer quando acontecer um erro de build.  
+### ErrorWidget.Builder : 
+Responsável por erros relacionados a construção(build) e dizer como será a tela de erro, e o que fazer quando acontecer um erro de build.  
 
 
 Entenda mais sobre como tratar erros, acesse a documentação do Flutter https://docs.flutter.dev/testing/errors  
