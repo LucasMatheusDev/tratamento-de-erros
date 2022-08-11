@@ -1,21 +1,20 @@
-# tratamento-de-erros
-BUDISMO E FLUTTER JUNTOS, SERÁ POSSIVEL ? 
+BUDDHISM AND FLUTTER TOGETHER, IS IT POSSIBLE?
 
-Um dos ensinamentos budista é que devemos nos acalmar e não tentar lutar contra os nossos problemas mas sim fazer amizade com eles, e será que podemos trazer esse conceito para a programação ?  
+One of the Buddhist teachings is that we should calm down and not try to fight our problems but make friends with them, and can we bring this concept to programming?
 
-Eu sei o que você está pensando, e não, não precisa abraçar o seu Setup quando ele der tela vermelha rrsrs 😂 😂😂  Mas e se o problema não fosse totalmente um inimigo ?    
+I know what you're thinking, and no, you don't have to hug your Setup when it gives a red screen lol 😂 😂😂 But what if the problem wasn't totally an enemy?
 
-E se ele pudesse nós influenciar a buscar a solução ao invés de ficar só reclamando que o ListView não cabe na tela! (Ops!, acho que isso foi meio pessoal 🤭) 😂   
+What if he could influence us to look for the solution instead of just complaining that the ListView doesn't fit on the screen! (Oops!, I think that was kind of personal 🤭) 😂
 
-Seria incrível se ele tivesse um pouco de consideração por nós e falasse: “Ei, este widget é gigante, ele não cabe aqui, que tal buscar isso no Stack OverFlow? “   E é exatamente sobre isso a dica de hoje, vamos fazer amizade com aquela tela vermelha que ninguém gosta, afinal nada vermelho é bom, minha conta bancária que diga 😂 😂😂    
+It would be awesome if he would be a little considerate of us and say, “Hey, this widget is huge, it doesn't fit here, how about fetching it from Stack OverFlow? “ And that's exactly what today's tip is about, let's make friends with that red screen that no one likes, after all, nothing red is good, my bank account says 😂 😂😂
 
-O flutter tem varias funções especificas para tratamento de erros, e as que iremos usar são “ FlutterError.OnError” e “ErrorWidget.Builder”  
+Flutter has several specific functions for error handling, and the ones we will use are “FlutterError.OnError” and “ErrorWidget.Builder”
 
-### FlutterError.OnError : 
-Responsável por tratar os erros conhecidos pelo flutter, como por exemplo um erro de assert() que não permite dar cor no container quando o BoxDecoration é diferente de nulo.  
+### FlutterError.OnError :
+Responsible for handling errors known by flutter, such as an assert() error that does not allow coloring in the container when the BoxDecoration is different from null.
 
-### ErrorWidget.Builder : 
-Responsável por erros relacionados a construção(build) e dizer como será a tela de erro, e o que fazer quando acontecer um erro de build.  
+### ErrorWidget.Builder :
+Responsible for build-related errors and tell what the error screen will look like, and what to do when a build error occurs.
 
 
-Entenda mais sobre como tratar erros, acesse a documentação do Flutter https://docs.flutter.dev/testing/errors  
+Learn more about handling errors, visit the Flutter documentation https://docs.flutter.dev/testing/errors
